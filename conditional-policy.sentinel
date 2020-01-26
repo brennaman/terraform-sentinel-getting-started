@@ -1,0 +1,5 @@
+is_docker = false
+ports_not_exposed = false
+
+main = rule when is_docker { ports_not_exposed }
+
