@@ -31,4 +31,4 @@ override.tf.json
 .vscode/settings.json
 
 #ignore backend files
-backend.tf
+**/backend.tf
